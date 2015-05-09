@@ -1,0 +1,17 @@
+{
+    "contents" : "setwd(\"~/DataVizz/DV_TableauProject3/02 Worbooks\")\nfile_path <- \"outpatient.csv\"\nfile_path <- \"inpatient.csv\"\nmeasures <- c(\"DRG\", \"Provider\", \"PName\", \"ProviderAddress\", \"HHRDescription\", \"TotalDischarges\", \"Covered_Charges\", \"Total_Payments\", \"Medicare_Payments\")\n\ndf <- inpatient.csv(file_path, stringsAsFactors = FALSE)\ndf <- outpatient.csv(file_path, stringsAsFactors = FALSE)\n#Replace \".\" with \"_\"\nnames(df) <- gsub(\"\\\\.+\", \"_\", names(df))\n\n#Delete rows with NA data\ndf <- na.omit(df)\n\n#Write out reformatted data\nwrite.csv(df, paste(gsub(\".csv\", \"\", file_path), \".reformatted.csv\", sep=\"\"), row.names=FALSE)",
+    "created" : 1429565048489.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "927447559",
+    "id" : "1A22883",
+    "lastKnownWriteTime" : 1429934893,
+    "path" : "~/DataVizz/DV_TableauProject3/00 Doc/Reformatting_data.R",
+    "project_path" : "Reformatting_data.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

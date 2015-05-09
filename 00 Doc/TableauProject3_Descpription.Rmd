@@ -1,0 +1,29 @@
+---
+title: "Tableau_Project3_Description"
+output: html_document
+---
+
+
+
+```{r}
+summary(c)
+```
+
+Here are our embedded plots from Tableau.
+
+```{r, echo=FALSE}
+plot(outpatient)
+
+plot(inpatient)\```
+#The first compiles outpatient services by state, demonstrating the main hospitals and states in the us 
+#affected in our datasets.
+![](./sheet1.png)
+
+# The second shows specific location and payment intesive areas from both sets, as well as total 
+#discharges. 
+![](./sheet2.png)  
+# This sheet shows average distribution of total charges nation wide.
+![](./sheet3.png)  
+#The fourth is an average measure of charges comparing outpatient to inpatient services. 
+![](./sheet4.png)    
+

@@ -1,0 +1,17 @@
+{
+    "contents" : "---\ntitle: \"Tableau_Project3_Description\"\noutput: html_document\n---\n\n\n\n```{r}\nsummary(c)\n```\n\nHere are our embedded plots from Tableau.\n\n```{r, echo=FALSE}\nplot(outpatient)\n\nplot(inpatient)\\```\n#The first compiles outpatient services by state, demonstrating the main hospitals and states in the us \n#affected in our datasets.\n![](./sheet1.png)\n\n# The second shows specific location and payment intesive areas from both sets, as well as total \n#discharges. \n![](./sheet2.png)  \n# This sheet show\n![](./sheet3.png)  \n#The fourth is an average measure of charges comparing outpatient to inpatient services. \n![](./sheet4.png)    \n\n",
+    "created" : 1429551206765.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2990655614",
+    "id" : "71FA03D1",
+    "lastKnownWriteTime" : 1429934893,
+    "path" : "~/DataVizz/DV_TableauProject3/00 Doc/TableauProject3_Descpription.Rmd",
+    "project_path" : "TableauProject3_Descpription.Rmd",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}
