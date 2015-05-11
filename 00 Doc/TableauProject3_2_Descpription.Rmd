@@ -1,29 +1,23 @@
 ---
-title: "Tableau_Project3_Description"
+title: "Tableau_Project3_2Description"
 output: html_document
 ---
 
 
+Here are my embedded plots from Tableau.
 
-```{r}
-summary(c)
-```
 
-Here are our embedded plots from Tableau.
+#The first compiles the sum of writing SAT scores from schools sorted by district number in New York City. The graph shows a comparison between 2010 and 2012 scores with the number of takers. Sat denotes 2010.
+![](./Sheet1.png)
 
-```{r, echo=FALSE}
-plot(outpatient)
+#This graph shows the average between 2010 and 2012 scores rather than the total sum. The averages are fairly similar, but notice the different in number of takers in 2012. This suggests an increase in students, population, or college enrollment.
 
-plot(inpatient)\```
-#The first compiles outpatient services by state, demonstrating the main hospitals and states in the us 
-#affected in our datasets.
-![](./sheet1.png)
+![](./Sheet2.png)  
 
-# The second shows specific location and payment intesive areas from both sets, as well as total 
-#discharges. 
-![](./sheet2.png)  
-# This sheet shows average distribution of total charges nation wide.
-![](./sheet3.png)  
-#The fourth is an average measure of charges comparing outpatient to inpatient services. 
-![](./sheet4.png)    
+# This sheet shows that the reading average increased overall from 2010 to 2012.
 
+![](./Sheet3.png)  
+
+#The last demonstrates overall change in terms of total sum averages alone. For the most part, there are not that many changes between 2010 and 2012.
+
+![](./Sheet4.png)    
